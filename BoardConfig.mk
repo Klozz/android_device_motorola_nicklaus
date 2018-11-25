@@ -41,6 +41,7 @@ BOARD_KERNEL_PAGESIZE := 2048
 BOARD_KERNEL_CMDLINE := bootopt=64S3,32N2,32N2 androidboot.selinux=permissive
 BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x04000000 --tags_offset 0xE000000
 KERNEL_TOOLCHAIN_PREFIX := arm-linux-androidkernel-
+LZMA_RAMDISK_TARGETS := recovery
 
 # Storage Allocations
 BOARD_RECOVERYIMAGE_PARTITION_SIZE := 16777216
